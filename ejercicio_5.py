@@ -3,9 +3,9 @@ anio = int(input("Please, add the number of year you want to check: "))
 
 def bisiesto(anio):
     if (anio % 4) == 0:
-        print("this a leap year.")
+        return "this a leap year."
         
     else:
-        print("This is not a leap year.")
+        return "This is not a leap year."
         
-bisiesto(anio)
+print(bisiesto(anio))
